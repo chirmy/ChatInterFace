@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/image_rightmssg"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_left1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="姓名：任萌琳"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="100dp"
+        android:textColor="#DD890D"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/tv_left2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="QQ:   254076589"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="150dp"
+        android:textColor="#DD890D"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:id="@+id/tv_left3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="最可爱的女孩，温柔美丽大方"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="200dp"
+        android:textColor="#DD890D"
+        android:textStyle="italic"
+        android:textSize="25sp"/>
+</RelativeLayout>

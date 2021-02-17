@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_login">
+
+    <TextView
+        android:id="@+id/name_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="i 聊"
+        android:textSelectHandleRight="@id/password_edtTxt"
+        android:textStyle="italic"
+        android:textSize="65sp"
+        android:textColor="#B5910E"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="90dp"
+        />
+
+    <EditText
+        android:id="@+id/account_edtTxt"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:gravity="center_vertical"
+        android:maxLines="1"
+        android:maxLength="20"
+        android:hint="Account"
+        android:layout_above="@id/password_edtTxt"/>
+
+
+    <EditText
+        android:id="@+id/password_edtTxt"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:gravity="center_vertical"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:maxLength="20"
+        android:hint="Password"
+        android:layout_above="@id/login_btn"/>
+
+    <Button
+        android:id="@+id/login_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:text="Login"
+        android:textSize="25sp"
+        android:textColor="#DC4C4545"
+        android:textStyle="bold"
+        android:layout_centerInParent="true"
+        android:background="#1297C812"
+        />
+
+
+
+
+</RelativeLayout>

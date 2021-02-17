@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/btn_title_back"
+        android:layout_width="75dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:background="#A40291EF"
+        android:text="Back"
+        android:textColor="#fff"
+        android:textSize="12sp"/>
+<!--        android:layout_toLeftOf="@id/tv_title"-->
+
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="245dp"
+        android:layout_height="60dp"
+        android:background="#B50291EF"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_toLeftOf="@id/btn_switch"
+        android:layout_toRightOf="@id/btn_title_back"
+        android:gravity="center"
+        android:text="柴狗&amp;萌猫"
+        android:textColor="#fff"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_switch"
+        android:layout_width="95dp"
+        android:layout_height="60dp"
+        android:layout_alignParentRight="true"
+        android:background="#A40291EF"
+        android:text="Switch"
+        android:textColor="#fff"
+        android:textSize="12sp"/>
+<!--    android:layout_toRightOf="@id/tv_title"-->
+
+</RelativeLayout>
